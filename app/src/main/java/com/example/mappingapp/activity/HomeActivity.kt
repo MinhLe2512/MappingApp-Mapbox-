@@ -183,7 +183,7 @@ class HomeActivity : AppCompatActivity(), PermissionsListener, OnMapReadyCallbac
             val currentCameraPosition = mapboxMap.cameraPosition
 
             mapboxMap.animateCamera(CameraUpdateFactory.newCameraPosition(CameraPosition.Builder()
-                .target(LatLng(currentCameraPosition.target)).zoom(14.0).build()), 4000)
+                .target(LatLng(10.444598,106.567383)).zoom(14.0).build()), 4000)
         } else {
             permissionsManager = PermissionsManager(this)
             permissionsManager.requestLocationPermissions(this)
