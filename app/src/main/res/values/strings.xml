@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">MappingApp</string>
+    <string name="mapbox_access_token">pk.eyJ1IjoibWluaGxlMjUxMiIsImEiOiJja29yNmVncWIxMjV1MnFsNHJsdjV0bWJmIn0.9DMvp_yAxZVX-X6Zow7mFA</string>
+    <string name="permission_granted">Permission granted</string>
+    <string name="permission_not_granted">Permission denied</string>
+    <string name="callback_error">Can\'t find last location</string>
+</resources>
